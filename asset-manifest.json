@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kanban-todo/static/css/main.e18c6690.css",
+    "main.css": "/kanban-todo/static/css/main.ef61a3c9.css",
     "main.js": "/kanban-todo/static/js/main.8ce78a2c.js",
     "static/media/Karla-ExtraBold.ttf": "/kanban-todo/static/media/Karla-ExtraBold.122ef3399f6dfa1c2974.ttf",
     "static/media/Karla-SemiBold.ttf": "/kanban-todo/static/media/Karla-SemiBold.ad031b3f19d4bb6eaafb.ttf",
@@ -8,11 +8,11 @@
     "static/media/Karla-Light.ttf": "/kanban-todo/static/media/Karla-Light.ff193d9207bb1d3f63c1.ttf",
     "static/media/Karla-Regular.ttf": "/kanban-todo/static/media/Karla-Regular.f950111be01b92a807ba.ttf",
     "index.html": "/kanban-todo/index.html",
-    "main.e18c6690.css.map": "/kanban-todo/static/css/main.e18c6690.css.map",
+    "main.ef61a3c9.css.map": "/kanban-todo/static/css/main.ef61a3c9.css.map",
     "main.8ce78a2c.js.map": "/kanban-todo/static/js/main.8ce78a2c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e18c6690.css",
+    "static/css/main.ef61a3c9.css",
     "static/js/main.8ce78a2c.js"
   ]
 }
