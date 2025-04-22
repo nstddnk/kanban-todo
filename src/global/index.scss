@@ -4,6 +4,26 @@
 @import 'styles/mixins/breakpoint';
 @import 'styles/typography';
 
+.form-floating > .form-control,
+.form-floating > .form-control-plaintext {
+  min-height: 50px;
+}
+
+.form-floating > .form-control,
+.form-floating > .form-control-plaintext {
+  line-height: 1.3;
+  min-height: 50px;
+  height: 50px;
+}
+
+.form-floating > .form-select {
+  padding-bottom: 0;
+  padding-top: 1.1rem;
+  line-height: 2;
+  min-height: 50px;
+  height: 50px;
+}
+
 .form-floating > label {
   min-height: 50px !important;
   padding: 14px !important;

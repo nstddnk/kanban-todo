@@ -1,5 +1,5 @@
 @import 'variables';
-$font-family-rubik: 'Rubik', sans-serif;
+$font-family-karla: 'Karla', sans-serif;
 
 h1,
 h2,
@@ -7,7 +7,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Rubik', sans-serif;
+  font-family: $font-family-karla;
 }
 
 h2 {
@@ -29,9 +29,18 @@ h4 {
   font-weight: 600;
 }
 
+p,
+span {
+  font-family: $font-family-karla;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: normal;
+  color: $black-color;
+}
+
 a,
 label,
 div,
 button {
-  font-family: 'Rubik', sans-serif;
+  font-family: $font-family-karla;
 }
