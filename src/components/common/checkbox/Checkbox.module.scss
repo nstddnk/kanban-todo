@@ -1,0 +1,10 @@
+@import '../../../global/styles/variables.scss';
+
+.wrapper {
+  padding: 0 12px;
+  border-right: 1px solid $light-gray-color;
+  &:last-child {
+    padding-right: 0;
+    border-right: none;
+  }
+}

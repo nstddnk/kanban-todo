@@ -1,0 +1,51 @@
+@import '../../global/styles/variables';
+
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.menuWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  height: 100%;
+}
+
+.createTaskButton {
+  background-color: $white-color;
+  color: $secondary-black-color;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  border: none;
+  padding: 12px 8px;
+  gap: 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logOutButton {
+  background-color: $white-color;
+  color: $secondary-black-color;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  border: none;
+  padding: 12px 8px;
+  gap: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  align-items: center;
+  margin-top: auto;
+}

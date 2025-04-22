@@ -1,0 +1,30 @@
+@import '../../global/styles/variables';
+
+.taskBoard {
+  display: flex;
+  flex: 1;
+  gap: 63px;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 30px;
+  height: 100%;
+}
+
+.taskColumns {
+  margin-top: 36px;
+}
+
+.emptyIconWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+  gap: 12px;
+  height: calc(100% - 70px);
+}
+
+.emptyBoardText {
+  margin-bottom: 70px;
+  font-size: 16px;
+}

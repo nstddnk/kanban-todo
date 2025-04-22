@@ -1,0 +1,85 @@
+@import '../../../global/styles/variables';
+
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.smallItem {
+  padding: 8px 4px;
+}
+
+.mediumItem {
+  padding: 12px 8px;
+}
+
+.menuItemActive {
+  background: $active-item-color;
+  animation: pop 0.3s ease;
+}
+
+.contentButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.leftContentButton {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.buttonText {
+  font-size: 16px;
+  font-weight: 600;
+  color: $secondary-black-color;
+  transition: all 0.5s ease;
+}
+
+.buttonTextActive {
+  color: $dark-navy-color;
+  transition: all 0.5s ease;
+}
+
+.buttonCounter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  background: $pale-gray-color;
+  transition: all 0.5s ease;
+}
+
+.buttonCounterActive {
+  background: $button-counter-active-bg-color;
+  transition: all 0.5s ease;
+}
+
+.counterText {
+  color: $counter-text-color;
+  font-family: $font-family-karla;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.5s ease;
+}
+
+.counterTextActive {
+  color: $white-color;
+  transition: all 0.5s ease;
+}
+
+.pointerCursor {
+  cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.bodyWrapper {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.taskScope {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+}
+
+.taskDetails {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+}
+
+.tagsCheckboxes {
+  display: flex;
+  align-items: center;
+}
